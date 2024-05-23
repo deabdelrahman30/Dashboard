@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Settings</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white pad-20 pos-rel">
+        <h3 class="pos-rel txt-center mar-top-0">Elzero</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="index.html">
+              <i class="far fa-chart-bar fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="settings.html">
+              <i class="fas fa-cog fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="profile.html">
+              <i class="fas fa-user fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="projects.html">
+              <i class="fas fa-project-diagram fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="courses.html">
+              <i class="fas fa-graduation-cap fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="friends.html">
+              <i class="fas fa-users fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="files.html">
+              <i class="far fa-file fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-14 cl-black rad-6 pad-10 mar-btm-5 trans-i-3ms"
+              href="plans.html">
+              <i class="far fa-credit-card fa-fw"></i>
+              <span class="font-14 mar-lft-10 hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content wid-full">
+        <!-- Start Head -->
+        <div class="head bg-white pad-15 flex-between">
+          <div class="search pos-rel">
+            <input
+              class="pad-10 pad-lft-30 mar-lft-5 border-1 border-3c rad-10 sm-holder trans-i-3ms"
+              type="search"
+              placeholder="Search" />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification pos-rel">
+              <i class="far fa-bell fa-2x"></i>
+            </span>
+            <img class="mar-lft-15 rad-50" src="img/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="pos-rel">Settings</h1>
+        <div class="settings mar-20 d-grid gap-20">
+          <!-- Start Site Control Widget -->
+          <div class="pad-20 bg-white rad-10">
+            <h2 class="mar-top-0 mar-btm-10">Site Control</h2>
+            <p class="mar-top-0 mar-btm-20 cl-grey font-15">
+              Control The Website If There Is Maintenance
+            </p>
+            <div class="mar-btm-15 flex-between">
+              <div>
+                <span>Website Control</span>
+                <p class="mar-top-5 mar-btm-0 font-13 cl-grey">
+                  Open/Close Website & Type The Reason
+                </p>
+              </div>
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div
+                    class="toggle-switch bg-3c rad-15 pos-rel pointer trans-i-3ms"></div>
+                </label>
+              </div>
+            </div>
+            <textarea
+              class="pad-10 border-1 border-3c rad-6 d-block unresize wid-full sm-holder"
+              placeholder="Type Your Message"></textarea>
+          </div>
+          <!-- End Site Control Widget -->
+          <!-- Start General Information Widget -->
+          <div class="pad-20 bg-white rad-10">
+            <h2 class="mar-top-0 mar-btm-10">General Info</h2>
+            <p class="mar-top-0 mar-btm-20 cl-grey font-15">
+              General Information About Your Account
+            </p>
+            <div class="mar-btm-15">
+              <label class="font-14 cl-grey d-block mar-btm-10" for="first"
+                >First Name
+              </label>
+              <input
+                class="border-1 border-3c pad-10 rad-6 d-block wid-full sm-holder"
+                type="text"
+                id="first"
+                placeholder="First Name" />
+            </div>
+            <div class="mar-btm-15">
+              <label class="font-14 cl-grey d-block mar-btm-10" for="last"
+                >Last Name
+              </label>
+              <input
+                class="border-1 border-3c pad-10 rad-6 d-block wid-full sm-holder"
+                type="text"
+                id="last"
+                placeholder="Last Name" />
+            </div>
+            <div>
+              <label class="font-14 cl-grey d-block mar-btm-10" for="mail"
+                >Email
+              </label>
+              <input
+                class="email border-1 border-3c pad-10 rad-6 d-block wid-full mar-rit-10 sm-holder"
+                type="email"
+                id="mail"
+                value="a@mail.com"
+                placeholder="Email Address"
+                disabled />
+              <a class="cl-blue" href="#">Change</a>
+            </div>
+          </div>
+          <!-- End General Information Widget -->
+          <!-- Start Security Information Widget -->
+          <div class="pad-20 bg-white rad-10">
+            <h2 class="mar-top-0 mar-btm-10">Security Info</h2>
+            <p class="mar-top-0 mar-btm-30 cl-grey font-15">
+              Security Information About Your Account
+            </p>
+            <div
+              class="sec-box mar-btm-15 pad-btm-15 border-b-1 border-3e flex-between">
+              <div>
+                <span>Password</span>
+                <p class="mar-top-5 mar-btm-0 font-13 cl-grey">
+                  Last Change In 24/2/2024
+                </p>
+              </div>
+              <a class="button bg-blue cl-white btn-shape trans-i-3ms" href="#"
+                >Change</a
+              >
+            </div>
+            <div
+              class="sec-box mar-btm-15 pad-btm-15 border-b-1 border-3e flex-between">
+              <div>
+                <span>Two Factor Authentication</span>
+                <p class="mar-top-5 mar-btm-0 font-13 cl-grey">
+                  Enable/Disable This Feature
+                </p>
+              </div>
+              <label>
+                <input class="toggle-checkbox" type="checkbox" checked />
+                <div
+                  class="toggle-switch bg-3c rad-15 pos-rel pointer trans-i-3ms"></div>
+              </label>
+            </div>
+            <div class="sec-box pad-btm-15 flex-between">
+              <div>
+                <span>Devices</span>
+                <p class="mar-top-5 mar-btm-0 font-13 cl-grey">
+                  Check The Login Devices List
+                </p>
+              </div>
+              <a class="bg-3e cl-black btn-shape" href="#">Devices</a>
+            </div>
+          </div>
+          <!-- End Security Information Widget -->
+          <!-- Start Social Media Information -->
+          <div class="social-info pad-20 bg-white rad-10">
+            <h2 class="mar-top-0 mar-btm-10">Social Info</h2>
+            <p class="mar-top-0 mar-btm-20 cl-grey font-15">
+              Social Media Information
+            </p>
+            <div class="d-flex align-center mar-btm-15">
+              <i
+                class="fab fa-facebook-f fa-lg flex-center cl-grey trans-i-3ms"></i>
+              <input
+                class="wid-full pad-lft-10 sm-holder"
+                type="text"
+                placeholder="Facebook Username" />
+            </div>
+            <div class="d-flex align-center mar-btm-15">
+              <i
+                class="fab fa-twitter fa-lg flex-center cl-grey trans-i-3ms"></i>
+              <input
+                class="wid-full pad-lft-10 sm-holder"
+                type="text"
+                placeholder="Twitter Username" />
+            </div>
+            <div class="d-flex align-center mar-btm-15">
+              <i
+                class="fab fa-youtube fa-lg flex-center cl-grey trans-i-3ms"></i>
+              <input
+                class="wid-full pad-lft-10 sm-holder"
+                type="text"
+                placeholder="Youtube Channel" />
+            </div>
+            <div class="d-flex align-center mar-btm-15">
+              <i
+                class="fab fa-linkedin-in fa-lg flex-center cl-grey trans-i-3ms"></i>
+              <input
+                class="wid-full pad-lft-10 sm-holder"
+                type="text"
+                placeholder="Linkedin Username" />
+            </div>
+            <div class="d-flex align-center mar-btm-15">
+              <i
+                class="fab fa-github fa-lg flex-center cl-grey trans-i-3ms"></i>
+              <input
+                class="wid-full pad-lft-10 sm-holder"
+                type="text"
+                placeholder="Github Username" />
+            </div>
+          </div>
+          <!-- End Social Media Information -->
+          <!-- Start Widgets Control -->
+          <div class="widgets-control pad-20 bg-white rad-10 pos-rel">
+            <h2 class="mar-top-0 mar-btm-10">Widgets Control</h2>
+            <p class="mar-top-0 mar-btm-20 cl-grey font-15">
+              Show/Hide Widgets
+            </p>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="one" checked />
+              <label class="pointer pos-rel" for="one">Quick Draft</label>
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="two" checked />
+              <label class="pointer pos-rel" for="two">Yearly Targets</label>
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="three" checked />
+              <label class="pointer pos-rel" for="three"
+                >Tickets Statistics</label
+              >
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="four" checked />
+              <label class="pointer pos-rel" for="four">Latest News</label>
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="five" />
+              <label class="pointer pos-rel" for="five"
+                >Social Media Stats</label
+              >
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="six" checked />
+              <label class="pointer pos-rel" for="six">Top Search Items</label>
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="seven" />
+              <label class="pointer pos-rel" for="seven">Latest Uploads</label>
+            </div>
+            <div class="control d-flex align-center mar-btm-15">
+              <input type="checkbox" id="eight" checked />
+              <label class="pointer pos-rel" for="eight">Reminders</label>
+            </div>
+          </div>
+          <!-- End Widgets Control -->
+          <!-- Start Backup Manager -->
+          <div class="backup-control pad-20 bg-white rad-10">
+            <h2 class="mar-top-0 mar-btm-10">Backup Manager</h2>
+            <p class="mar-top-0 mar-btm-20 cl-grey font-15">
+              Control Backup Date, Time & Location
+            </p>
+            <div class="date d-flex align-center mar-btm-15">
+              <input type="radio" name="time" id="daily" checked />
+              <label class="pointer pos-rel" for="daily">Daily</label>
+            </div>
+            <div class="date d-flex align-center mar-btm-15">
+              <input type="radio" name="time" id="weekly" />
+              <label class="pointer pos-rel" for="weekly">Weekly</label>
+            </div>
+            <div class="date d-flex align-center mar-btm-15">
+              <input type="radio" name="time" id="monthly" />
+              <label class="pointer pos-rel" for="monthly">Monthly</label>
+            </div>
+            <div
+              class="servers d-flex align-center pad-top-20 txt-center border-t-1 border-3e">
+              <input type="radio" name="servers" id="serv-one" />
+              <div
+                class="server mar-btm-15 border-2 border-3e rad-10 wid-full pos-rel">
+                <label class="d-block mar-15 pointer" for="serv-one">
+                  <i class="fas fa-server fa-lg d-block mar-btm-10"></i>
+                  MegaUpload
+                </label>
+              </div>
+              <input type="radio" name="servers" id="serv-two" checked />
+              <div
+                class="server mar-btm-15 border-2 border-3e rad-10 wid-full pos-rel">
+                <label class="d-block mar-15 pointer" for="serv-two">
+                  <i class="fab fa-google-drive fa-lg d-block mar-btm-10"></i>
+                  Google Drive
+                </label>
+              </div>
+              <input type="radio" name="servers" id="serv-three" />
+              <div
+                class="server mar-btm-15 border-2 border-3e rad-10 wid-full pos-rel">
+                <label class="d-block mar-15 pointer" for="serv-three">
+                  <i class="fas fa-cloud fa-lg d-block mar-btm-10"></i>
+                  One Drive
+                </label>
+              </div>
+            </div>
+            <p class="mar-top-0 cl-grey font-15 txt-center">
+              Last Backup In 20 / 5 / 2024 12:00 AM
+            </p>
+          </div>
+          <!-- End Backup Manager -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
